@@ -8,8 +8,8 @@ client.on('ready', () => {
 
 client.on('message', msg => {
   if (msg.content === 'ping') {
-    msg.reply('pong');
+    msg.reply('Hey! Welcom to DreamWorld! To get started we recommend going through our');
   }
 });
 
-client.login(auth.token);
+client.login(process.env.BOT_TOKEN);
